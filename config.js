@@ -1,7 +1,7 @@
 module.exports = {
   TOKEN: process.env.TOKEN || "",
   language: "en",
-  ownerID: [""],
+  ownerID: ["1322850989270765693"],
   mongodbUri: process.env.MONGO_URI || "",
   spotifyClientId: "d92baed9605a45a39ed7c2a2d960b1c1",
   spotifyClientSecret: "e9b29f6739de4315bc03b6d8a8e93b03",
@@ -19,6 +19,13 @@ module.exports = {
   lowMemoryMode: true, // Enable optimizations for low-memory hosting
   errorLog: "",
   nodes: [
+    {
+      name: "calendars-lions-their-cookbook",
+      host: "calendars-lions-their-cookbook.trycloudflare.com",
+      port: 443,
+      password: "S9uyj6l7xsadwdzWD4lN0KTh0e6kSsfW",
+      secure: true,
+    },
     {
       name: "Jirayu-Thailand (Priority)",
       host: "lavalink.jirayu.net",
